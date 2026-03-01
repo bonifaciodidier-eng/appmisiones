@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el monto"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnBueno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bueno"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnRegular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regular"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnMalo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Malo"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txtPropina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Propina: 0.0"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: 0.0"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
